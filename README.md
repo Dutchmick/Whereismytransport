@@ -1,13 +1,26 @@
 Whereismytransport assessment
 ==============================
 
-A short description of the project.
+The objective of this repository is to highlight my technical abilities for Whereismytransport based on the providing hiring exercise.
+I have selected the first exercise, user segment creation, because of the following reasons:
+-	Most work a data scientist does is data cleaning, which includes customer segmentation. Because of that I thought it would be most useful to demonstrate my skills in this area;
+-	Creating user segments is useful for any company and always adds value. Better understanding a client base allows for better user targeting and product improvement. On top of that, depending on the use case, segments can be stored in a feature storage to use for future product features and data analytics exercises;
+-	I have worked on quite some message effectiveness/improvement campaigns and found that AB testing is the most reliable method to do this because it eliminates external influences (eg phone user broke, technical issues. Within the tech space Whereismytransport is in, it should be fairly easy to implement and manage this;
+-	I would assume that geographical entities are already available for Whereismytransport, so creating a tool which extracts these wouldn't directly be of use.
+
+The project contains the following notebooks:
+- 1 – **Data download**. After forking the Github repository, run this code to download the data from source;
+- 2 – **Exploratory analysis**. Use this to gain an understanding on the available data
+- 3 – **Segmentation**. Worked-out segmentation exercise.
+
+
+
+Full description of the exercise and source data: https://drive.google.com/drive/folders/1akT7jbXYy2-zLHEtnK3q6vqcQ-JdRO9H
 
 Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -15,39 +28,17 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
+    │  
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 

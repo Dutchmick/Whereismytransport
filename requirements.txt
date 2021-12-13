@@ -1,9 +1,15 @@
 # local package
+os
+datetime
+gdown==4.2.0
+numpy==1.18.1
+pandas==1.1.1
+seaborn==0.11.0
+sklearn==0.22.1
+matplotlib==3.3.2
 -e .
 
 # external requirements
-click
-Sphinx
 coverage
 awscli
 flake8
